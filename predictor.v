@@ -7,7 +7,7 @@ if (request) begin
 prediction = state[1];
 end
 
-if (result) begin
+  if (result == 1'b1 ) begin
 //todo
 if (taken && state!=2'b11) begin
 state = state+1;
