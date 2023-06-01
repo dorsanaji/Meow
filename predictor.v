@@ -16,3 +16,4 @@ if (!taken && state!=2'b00)begin
 state = state-1;
 end
 end
+  endmodule
